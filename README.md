@@ -1,5 +1,7 @@
 # GDevelop Documentation repository
 
+> **AI coding default (D-053, 2026-10-16):** **Copilot and Codex both use GPT-6 Luna / native MAX** unless the owner explicitly specifies another model/effort for that task. **No automatic GPT-6.1 Sol/high, Sonnet or GPT-5.6 fallback.** [Canonical policy](https://github.com/evgenydrumachik-commits/Hermes-Infra/blob/main/GLOBAL_ENGINEERING_POLICY.md).
+
 ![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png)
 
 This repository holds [the official documentation](https://wiki.gdevelop.io) for the [GDevelop](https://gdevelop.io) editor.
