@@ -4,6 +4,12 @@
 
 # Important Writing Style And Architecture Constraints
 
+## Canonical Home shared governance
+
+- Home at `evgenydrumachik-commits/Home` is the authored source for shared governance. At task start, use an existing authorized private, read-only GitHub route to resolve `refs/heads/main` to one full commit SHA. At that immutable SHA, read `BOOTSTRAP.md`, `policies/core.md`, and every shared policy or domain module applicable to the task. Read this repository's README, applicable AGENTS and path-local instructions, active project decisions, the governing Issue or PR and latest material comments. A URL, filename, old summary, or archive is not evidence that current source was read.
+- Verify each decoded Home file against its Git blob SHA and record the Home commit, paths, blob SHAs, and SHA-256 values in task evidence. Resolve Home `main` again after reading; use the snapshot only if the before and after full SHAs match. This read is independent of any Hermes Steward Issue/PR inventory.
+- This public repository retains its user-facing documentation purpose and local contribution/writing conventions. Do not copy Home policy bytes, private catalogs, or Home registry details into this repository. If this task's authorized client cannot read Home, preserve local rules, state that Home was not loaded, and continue only work independent of the missing source.
+
 - Do NOT document non-user-facing implementation details. Focus only on information
   that is relevant to users creating games with GDevelop, not internal engine behavior.
 - Do NOT list all actions/conditions in a list or table: the reference documentations are already
